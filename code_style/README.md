@@ -77,9 +77,9 @@ Git
     Longer description (wrap at 72 characters)
     ```
     * Example of a commit that is too long:
-        ![poor commit](images/poor-commit-example.png)
+        ![poor commit](poor-commit-example.png)
     * Example of a good commit:
-        ![poor commit](images/good-commit-example.png)
+        ![poor commit](good-commit-example.png)
 * Commit summary:
     * Less than 50 characters
     * What was changed
