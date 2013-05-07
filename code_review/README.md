@@ -17,7 +17,7 @@ Code Reviews
         * (6 months later)
             * *John*: What on earth? This completely duplicates `json_encode`. I'll just rewrite it to take advantage of the built-in method.
         * (in production)
-            * **OH NOES** :flame:
+            * **OH NOES** :fire:
 * Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
 * Communicate which ideas you feel strongly about and those you don't.
 * Identify ways to simplify the code while still solving the problem.
