@@ -1,7 +1,7 @@
 RNL Style Guide
 ================================================================================
 
-To get started, visit [GitHubs's Style Guide](https://github.com/styleguide/) and read the Overview in each section.
+To get started, visit [GitHub's Style Guide](https://github.com/styleguide/) and read the Overview in each section.
 
 Conformity to this guide is really just to help us all get along and keep things consistent-looking. To that end, many of the decisions are arbitrary, because *someone* had to pick a number of spaces for us all to stick with.
 
@@ -13,6 +13,19 @@ General
     the formatting of array initializers and the like.
 * Try to be specific when naming things. Something long and descriptive is better than something short and ambiguous - be nice to the future you.
 * If you start your function names with verbs, it will help you conceptualize what's going on.
+* In all languages, try to use `CamelCase` for class names, `snake_case` for variables and functions unless there's a really strong language/framework reason for something else. This is simply so that we don't have to think about it when we're switching between languages.
+* Braces (if your languages supports them) should be written in the [One True Brace Style](http://en.wikipedia.org/wiki/Indent_style#Variant:_1TBS):
+
+    ```
+    if (x < 0) {
+        puts("Negative");
+        negative(x);
+    } else {
+        puts("Non-negative");
+        nonnegative(x);
+    }
+    ```
+
 
 CSS
 --------------------------------------------------------------------------------
@@ -29,7 +42,6 @@ Ruby
 PHP
 --------------------------------------------------------------------------------
 * Four spaces soft indentation
-* Use `CamelCase` for class names, `drinkingCamelCase` for variables and functions.
 * If using [Caret](https://github.com/rednovalabs/caret):
     * Use the `inputTag()` method to generate form inputs rather than hand-building
         them. See [caret/pages/helpers/forms.php](https://github.com/rednovalabs/caret/blob/master/pages/helpers/forms.php)
@@ -37,7 +49,6 @@ PHP
 Javascript
 --------------------------------------------------------------------------------
 * Four spaces soft indentation
-* Use `CamelCase` for class names, `drinkingCamelCase` for variables and functions.
 
 HTML
 --------------------------------------------------------------------------------
@@ -47,7 +58,7 @@ HTML
 Git
 --------------------------------------------------------------------------------
 * Structure your commit message like this:
-
+ 
     ```
     One line summary (less than 50 characters)
 
