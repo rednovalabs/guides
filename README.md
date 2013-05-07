@@ -1,17 +1,26 @@
 RNL Style Guide
 ================================================================================
 
-To get started, visit [GitHubs's Style Guide](https://github.com/styleguide/) and read the Overview in
-each section.
+To get started, visit [GitHubs's Style Guide](https://github.com/styleguide/) and read the Overview in each section.
+
+Conformity to this guide is really just to help us all get along and keep things consistent-looking. To that end, many of the decisions are arbitrary, because *someone* had to pick a number of spaces for us all to stick with.
 
 General
 --------------------------------------------------------------------------------
-* Use soft tabs (spaces instead of tab characters)
-* 
+* Use soft tabs (spaces instead of tab characters) - set your editor up for this
+* Your editor probably has a reformat command. Please make liberal use of this to keep
+    whitespace consistent throughout a document, but take care that it doesn't bork
+    the formatting of array initializers and the like.
+* Try to be specific when naming things. Something long and descriptive is better than something short and ambiguous - be nice to the future you.
+* If you start your function names with verbs, it will help you conceptualize what's going on.
 
 CSS
 --------------------------------------------------------------------------------
-
+* [GitHub CSS Style Guide](https://github.com/styleguide/css)
+* Two spaces soft indentation
+* Use lowercase hex colors (e.g. `#fff`) instead of color names (e.g. `white`).
+* Use hyphens between class names like `ui-button-content`, rather than `uiButtonContent` or `ui_button_content`.
+* Try to avoid inline styling wherever you can.
 
 Ruby
 --------------------------------------------------------------------------------
@@ -19,11 +28,21 @@ Ruby
 
 PHP
 --------------------------------------------------------------------------------
-
+* Four spaces soft indentation
+* Use `CamelCase` for class names, `drinkingCamelCase` for variables and functions.
+* If using [Caret](https://github.com/rednovalabs/caret):
+    * Use the `inputTag()` method to generate form inputs rather than hand-building
+        them. See [caret/pages/helpers/forms.php](https://github.com/rednovalabs/caret/blob/master/pages/helpers/forms.php)
 
 Javascript
 --------------------------------------------------------------------------------
+* Four spaces soft indentation
+* Use `CamelCase` for class names, `drinkingCamelCase` for variables and functions.
 
+HTML
+--------------------------------------------------------------------------------
+* [GitHub HTML Style Guide](https://github.com/styleguide/templates)
+* Four spaces soft indentation
 
 Git
 --------------------------------------------------------------------------------
