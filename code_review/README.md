@@ -1,6 +1,11 @@
 Code Reviews
 ==============================================================
 
+#### Goals
+1. Transfer of knowledge (both from the reviewer to the author *and* vice versa)
+2. Improve code quality/maintainability
+
+
 #### DO
 * Accept that many programming decisions are opinions. Discuss tradeoffs, which you prefer, and reach a resolution quickly.
 * Ask questions rather than make demands. ("What do you think about naming this `perform_action`?")
@@ -36,9 +41,14 @@ http://codeinthehole.com/writing/pull-requests-and-other-good-practices-for-team
 ### As a team
 From [11 Best Practices for Peer Code Review - SmartBear](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDkQFjAA&url=http%3A%2F%2Fsmartbear.com%2FSmartBear%2Fmedia%2Fpdfs%2FWP-CC-11-Best-Practices-of-Peer-Code-Review.pdf&ei=cl-JUZK8C5LqqAGsl4GoAQ&usg=AFQjCNE-Fr044F19hN_Fada7Cfhj6V5yQw):
 > It’s easy to see defects as a bad thing – after all they are mistakes in the code – but fostering a negative attitude towards defects found can sour a whole team, not to mention sabotage the bug-finding process.
->> Managers must promote the viewpoint that defects are positive. After all, each one is an opportunity to improve the code, and the goal of the bug review process is to make the code as good as possible. Every defect found and fixed in peer review is a defect a customer never saw, another problem QA didn’t have to spend time tracking down.>> Teams should maintain the attitude that finding defects means the author and reviewer have successfully worked as a team to jointly improve the product. It’s not a case of “the author made a defect and the review found it.” It’s more like a very efficient form of pair-programming.
->> Reviews present opportunities for all developers to correct bad habits, learn new tricks and expand their capabilities. Developers can learn from their mistakes – but only if they know what their issues are. And if developers are afraid of the review process, the positive results disappear.
->> Especially if you’re a junior developer or are new to a team, defects found by others are a good sign that your more experienced peers are doing a good job in helping you become a better developer. You’ll progress far faster than if you were programming in a vacuum without detailed feedback.
+>
+> Managers must promote the viewpoint that defects are positive. After all, each one is an opportunity to improve the code, and the goal of the bug review process is to make the code as good as possible. Every defect found and fixed in peer review is a defect a customer never saw, another problem QA didn’t have to spend time tracking down.
+>
+> Teams should maintain the attitude that finding defects means the author and reviewer have successfully worked as a team to jointly improve the product. It’s not a case of “the author made a defect and the review found it.” It’s more like a very efficient form of pair-programming.
+>
+> Reviews present opportunities for all developers to correct bad habits, learn new tricks and expand their capabilities. Developers can learn from their mistakes – but only if they know what their issues are. And if developers are afraid of the review process, the positive results disappear.
+>
+> Especially if you’re a junior developer or are new to a team, defects found by others are a good sign that your more experienced peers are doing a good job in helping you become a better developer. You’ll progress far faster than if you were programming in a vacuum without detailed feedback.
 > Managers must continue to foster the idea that **finding defects is good, not evil, and that defect density is not correlated with developer ability**. Remember to make sure it’s clear to the team that defects, particularly the number of defects introduced by a team member, shouldn’t be shunned and will never be used for performance evaluations.
 
 From [Best Kept Secrets of Peer Code Review](http://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf):
