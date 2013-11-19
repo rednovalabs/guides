@@ -61,6 +61,7 @@ PHP
 Javascript
 --------------------------------------------------------------------------------
 * Four spaces soft indentation
+* [AirBnB JavaScript style guide](https://github.com/airbnb/javascript)
 
 HTML
 --------------------------------------------------------------------------------
