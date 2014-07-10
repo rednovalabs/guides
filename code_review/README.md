@@ -26,7 +26,7 @@ Code Reviews
 * Be grateful for the reviewer's suggestions. ("Good call. I'll make that change.")
 * Communicate which ideas you feel strongly about and those you don't.
 * Identify ways to simplify the code while still solving the problem.
-* Let the author make the final decision on alternative implementations, especially f discussions turn too philosophical or academic (which can be an indication that it doesn't matter).
+* Let the author make the final decision on alternative implementations, especially if discussions turn too philosophical or academic (which can be an indication that it doesn't matter).
 * Offer alternative implementations, but assume the author already considered them. ("What do you think about using a custom validator here?")
 
 #### Don't
