@@ -54,12 +54,12 @@ Ruby
 PHP
 --------------------------------------------------------------------------------
 * Four spaces soft indentation
-* No short tags.
+* No short tags. See [PHP tags](http://php.net/manual/en/language.basic-syntax.phptags.php)
     * YES
         * `<?php `
         * `<?= `
     * NO
-        * `<? `
+        * `<? ?>`
 * If using [Caret](https://github.com/rednovalabs/caret):
     * Use the `inputTag()` method to generate form inputs rather than hand-building
         them. See [caret/pages/helpers/forms.php](https://github.com/rednovalabs/caret/blob/master/pages/helpers/forms.php)
