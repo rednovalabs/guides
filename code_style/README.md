@@ -41,7 +41,7 @@ General - all languages
 #### Delete Whitespace
 * Sublime:
   * "Sublime Text" -> "Preferences" -> "User Preferences"
-  
+
     ```json
      "ensure_newline_at_eof_on_save"=> true,
      "trim_trailing_white_space_on_save"=> true
@@ -50,6 +50,10 @@ General - all languages
  * https://github.com/bomberstudios/Strip-Whitespace-On-Save.tmbundle
  * https://github.com/mads379/Whitespace.tmbundle
  * https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle
+
+* VIM - The One True Editor
+  * Put this in your `.vimrc`:
+    `autocmd! BufWrite * mark ' | silent! %s/\s\+$// | norm ''`
 
 CSS
 --------------------------------------------------------------------------------
@@ -89,7 +93,7 @@ HTML
 Git
 --------------------------------------------------------------------------------
 * Structure your commit message like this:
- 
+
     ```
     One line summary (less than 50 characters)
 
