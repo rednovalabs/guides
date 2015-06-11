@@ -52,7 +52,8 @@ General - all languages
  * https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle
 
 * VIM - The One True Editor
-  `autocmd! BufWrite * mark ' | silent! %s/\s\+$// | norm ''`
+  * Put this in your `.vimrc`:
+    `autocmd! BufWrite * mark ' | silent! %s/\s\+$// | norm ''`
 
 CSS
 --------------------------------------------------------------------------------
