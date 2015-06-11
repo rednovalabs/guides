@@ -27,7 +27,7 @@ General - all languages
     }
     ```
 * Avoid inline comments.
-* Delete trailing whitespace.
+* Delete trailing whitespace. (see below for editor setup)
 * Keep hash/array elements on their own lines and closing curly brace on its own line.
 * Make liberal use of whitespace to organize your code into logical areas.
 * Avoid abbreviations.
@@ -38,6 +38,17 @@ General - all languages
 * Include spaces after `(`, `[` or before `]`, `)` unless it's for a control structure.
 * Break up an argument list on multiple lines.
 
+#### Delete Whitespace
+* Sublime:
+  * "Sublime Text" -> "Preferences" -> "User Preferences"
+  
+    ```json
+     "ensure_newline_at_eof_on_save"=> true,
+     "trim_trailing_white_space_on_save"=> true
+     ```
+* TextMate
+ * https://github.com/bomberstudios/Strip-Whitespace-On-Save.tmbundle
+ * https://github.com/mads379/Whitespace.tmbundle
 
 CSS
 --------------------------------------------------------------------------------
