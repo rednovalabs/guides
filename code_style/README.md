@@ -49,6 +49,7 @@ General - all languages
 * TextMate
  * https://github.com/bomberstudios/Strip-Whitespace-On-Save.tmbundle
  * https://github.com/mads379/Whitespace.tmbundle
+ * https://github.com/hajder/Ensure-New-Line-at-the-EOF.tmbundle
 
 CSS
 --------------------------------------------------------------------------------
