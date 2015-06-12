@@ -83,7 +83,8 @@ PHP
 Javascript
 --------------------------------------------------------------------------------
 * Four spaces soft indentation
-* [AirBnB JavaScript style guide](https://github.com/airbnb/javascript)
+* [AirBnB JavaScript style guide ES6](https://github.com/airbnb/javascript)
+* [AirBnB Javascript style guide ES5] (https://github.com/airbnb/javascript/blob/master/es5/README.md)
 
 HTML
 --------------------------------------------------------------------------------
