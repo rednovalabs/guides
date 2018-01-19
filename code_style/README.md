@@ -128,6 +128,7 @@ Git
       [official git style](http://repo.or.cz/w/git.git?a=blob;f=Documentation/SubmittingPatches;hb=HEAD)
     * Use good grammar, capitalization, etc
 * Commit description:
+    * Include ticket number
     * Wrap at 72 characters
     * Why, explain intention and implementation approach
     * Present tense
