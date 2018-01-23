@@ -107,6 +107,10 @@ HTML
 
 Git
 --------------------------------------------------------------------------------
+* Pull Requests
+    * Aim for 1 commit per Pull Request.  If you are fixing multiple things in 1 PR, it should really be 2 PRs, rather than 1 PR with multiple commits. This makes it easier for other developers to assist with code reviews and testing.
+    * Squash commits before a final merge to reduce the noise and do a `git commit --amend` as your last step to ensure that your commit message is correct.
+    * Use PR templates whenever possible to encourage consistency in your PRs. This is a courtesy to your fellow developers - if you are asking them to review your code, take the time to provide all the necessary details.
 * Structure your commit message like this:
 
     ```
