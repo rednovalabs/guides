@@ -10,7 +10,7 @@ Guides for getting things done, programming well, and programming in style.
 * Don't rewrite existing code to follow this guide.
 * Don't violate a guideline without a good reason.
 
-### How to change the guide. ###
+### How to change the guide.
 * Do not change the guide unilaterally.  You must have buy-in from the majority of the team to make changes/additions/deletions.
 * Open a PR for any changes.
 * PR should be open for a minimum of 1 week to allow time for feedback.
