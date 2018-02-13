@@ -119,7 +119,7 @@ Git
     * Example of a good commit:
         ![poor commit](good-commit-example.png)
 * Commit summary:
-    * Less than 50 characters
+    * Less than 50 characters is ideal, maximum of 72
     * What was changed
     * Write in imperative present tense (fix, add, change): (`Fix bug 123.`, `Add 'foobar' command.`, `Change default timeout to 60 seconds.`).
       Ask yourself this question: “What will applying the patch do?”
