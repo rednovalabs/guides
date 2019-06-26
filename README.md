@@ -4,6 +4,7 @@ Guides for getting things done, programming well, and programming in style.
 
 * [Code Review](/code_review)
 * [Code Style](/code_style)
+* [Code Organization](/code_organization)
 
 ### High level guidelines:
 * Be consistent.
