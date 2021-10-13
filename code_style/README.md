@@ -71,7 +71,7 @@ General - all languages
 
 CSS
 --------------------------------------------------------------------------------
-* [GitHub CSS Style Guide](https://github.com/styleguide/css)
+* [GitHub CSS Style Guide](https://primer.style/css/principles/scss)
 * Two spaces soft indentation
 * Use lowercase hex colors (e.g. `#fff`) instead of color names (e.g. `white`).
 * Use hyphens between class names like `ui-button-content`, rather than `uiButtonContent` or `ui_button_content`.
@@ -79,7 +79,7 @@ CSS
 
 Ruby
 --------------------------------------------------------------------------------
-* [GitHub Ruby Style Guide](https://github.com/styleguide/ruby)
+* [AirBnB Ruby Style Guide](https://github.com/airbnb/ruby)
 
 PHP
 --------------------------------------------------------------------------------
@@ -102,7 +102,7 @@ JavaScript
 
 HTML
 --------------------------------------------------------------------------------
-* [GitHub HTML Style Guide](https://github.com/styleguide/templates)
+* [GitHub HTML Style Guide](https://primer.style/css/principles/html)
 * Four spaces soft indentation
 
 Git
